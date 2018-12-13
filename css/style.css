@@ -383,6 +383,13 @@ template {
   outline: none;
 }
 
+.input {
+  font-size: 15px;
+  padding: 26px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+}
+
 .header-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,7 +558,7 @@ template {
 }
 
 .form__input {
-  widows: 270px;
+  width: 270px;
   margin-bottom: 15px;
 }
 
@@ -616,6 +623,11 @@ template {
   line-height: 24px;
   text-decoration: none;
   color: #333333;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
